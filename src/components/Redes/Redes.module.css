@@ -1,0 +1,80 @@
+.container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 1rem;
+  margin-bottom: 0;
+  margin-left: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.NavLink {
+  background-color: transparent;
+  border: none;
+}
+
+.iconos:hover {
+  color: #fd891c;
+  transform: translateY(-3px);
+}
+
+.iconos {
+  background: transparent;
+  color: #f7f5f8;
+  font-size: 1.4rem;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.verticalLine {
+  border-left: 2px solid #f7f5f8;
+  height: 130px;
+}
+
+@media (max-width: 391px) {
+  .verticalLine {
+    display: none;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2.5em;
+    margin-left: 0.4em;
+    background-color: #020001;
+    z-index: 2;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 11px;
+  }
+}
+@media (min-width: 391px) and (max-width: 768px) {
+  .verticalLine {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2.5em;
+    width: 100%;
+    font-size: 13px;
+    justify-content: center;
+    margin-left: 0.8em;
+    background-color: #020001;
+    z-index: 2;
+    padding: 4px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Estilos para pantallas con ancho entre 768px y 992px */
+}
+
+@media (min-width: 992px) {
+  /* Estilos para pantallas con ancho mínimo de 992px */
+}
