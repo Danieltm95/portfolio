@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import style from "./Redes.module.css";
 
 const handleWhatsapp = () => {
-  window.open("https://wa.me/57326629777");
+  window.open("https://wa.me/57320629777");
 };
 
 const Redes = () => {
